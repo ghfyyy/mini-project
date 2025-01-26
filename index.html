@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kakulator BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h2>Apa itu Kalkulator BMI?</h2>
+            <p>Kalkulator BMI adalah alat untuk mengidentifikasi apakah berat badan kamu termasuk dalam kategori ideal atau tidak.
+                Kalkulator ini dapat digunakan oleh seseorang yang berusia 20 tahun ke atas.
+            </p>
+            <br>
+            <p>Perlu diingat bahwa Kalkulator BMI ini tidak dapat diaplikasikan untuk ibu hamil dan anak-anak karena standar BMI yang berbeda.</p>
+            <h3>Hal yang perlu diperhatikan pada Kalkulator BMI:</h3>
+            <p>1. Jika angka BMI kurang dari 18,5. Maka kamu kekurangan berat badan</p>
+            <p>2. Jika angka BMI 18,5 - 24,9. Maka kamu memiliki berat badan ideal</p>
+            <p>3. Jika angka BMI 25 - 29,9. Maka kamu memiliki berat badan berlebih</p>
+            <p>4. Jika angka BMI 30 - 34,9. Maka kamu memiliki obesitas kelas 1</p>
+        </div>
+        <div class="right-section">
+            <h2>Kalkulator BMI</h2>
+            <div class="gender-selection">
+                <div>
+                    <img src="pria.png" height="50" alt="Laki-laki" width="50">
+                    <p>Laki-laki</p>
+                </div>
+                <div>
+                    <img src="wanita.png" height="50" alt="Perempuan" width="50">
+                    <p>Perempuan</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="height">Tinggi (cm)</label>
+                <input type="number" id="height" placeholder="Tinggi badan">
+            </div>
+            <div class="form-group">
+                <label for="weight">Berat (kg)</label>
+                <input type="number" id="weight" placeholder="Berat badan">
+            </div>
+            <button class="btn">HITUNG BMI</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
