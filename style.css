@@ -20,7 +20,7 @@ body {
 }
 
 .left-section, .right-section {
-    padding: 50px;
+    padding: 20px;
 }
 
 .left-section {
@@ -36,7 +36,7 @@ body {
 }
 
 .right-section h2 {
-    margin-top: 0;
+    margin-top: 1;
 }
 
 .gender-selection {
